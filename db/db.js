@@ -10,7 +10,7 @@ const db =new sqlite3.Database("./db/book.db",sqlite3.OPEN_READWRITE,(err)=>{
 // sql=`CREATE TABLE catalog(id INTEGER PRIMARY KEY ,title,topic,stock,price)`
 // sql=`INSERT INTO catalog(id,title,topic,stock,price)
 //      VALUES(?,?,?,?,?)`;
-//  db.run(sql,[1,"How to get a good grade in DOS in 40 minutes a day","distributed systems",20,20],
+//  db.run(sql,[5,"How to finish Project 3 on time","distributed systems",30,20],
 // (err)=>{
 //       if(err) return console.error(err.message);
 //      console.log("a new book has been added");
